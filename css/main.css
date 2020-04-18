@@ -1,0 +1,171 @@
+/******* BASE STYLES *******/
+
+@font-face {
+    font-family: 'Wisdom';
+    src: url('../fonts/wisdomscriptaj.otf') format('opentype');
+}
+
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******* GRID *******/
+
+.full-width {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.two-third-width {
+    float: left;
+    width: 800px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/******* HEADER *******/
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/****** MAIN ******/
+
+#gallery img#hero-img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+  /******* ABOUT *******/
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 17px;
+}
+
+  /******* MENU *******/
+
+#menu {
+    height: 210px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+#menu h3 {
+    font-size: 12px;
+    line-height: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#menu ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 20px;
+}
+
+  /******* REVIEWS *******/
+#reviews {
+    height: 210px;
+    border: 1px solid #dedbdc;
+}
+
+#reviews h3 {
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 30px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 20px 0 30px;
+}
+
+  /******* CONTACT *******/
+#contact {
+    height: 210px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+#contact h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+
+/******* FOOTER *******/
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+footer h2 span {
+    color: #77a466;
+    font-family: 'Wisdom';
+    text-transform: lowercase;
+}
